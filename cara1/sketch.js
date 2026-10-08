@@ -1,0 +1,26 @@
+function setup() {
+  createCanvas(600, 600);// Crea un areade dibuix de 600 píxels
+//  quadrats , 600 píxels d'alçada, canvas és àrea de dibuix.
+   // Setup és la configuración o caracteristiques del nostre codi.
+}
+
+function draw() {// Draw significa dibuixar
+  background(40);// Fons de color gris, perqué hi ha un numero entre 0 i 255 i el 0 es negra i el 255 es blanc.
+  fill(255,200,0);// fill significa omplir de color ell que hi ha a de vermellos(R:red), el segon numero és el nivell verdos(G:green) i el tercer numero és elnivell de blavos(B:blue).Podem fer 255 x 255 x 255= 16.700.000 de colors diferents.He de posar el color que vulgis als ull hi ha la cara canviat els 3 numeros, buscant a google colors RGB
+  ellipse(300,300,300,200);//És la cara secera. El primer número segon número significa la posició Y (vertical) del centre de la el·lipse. El tercer número significa l'amplada de la el·lipse en pixels i el quadrat l'alçada de la el·lipse. Sempre els numeros son pixels conntants des de la cantonada  superir esquedrra, és a dir el punt 0,0 es troba diferent que a matematiques(cantonada inferior esquerra)
+  fill(240);
+  ellipse(250,272,50,40);
+  ellipse(349,272,50,40);
+  arc(301,350,115,50,0,PI);
+  
+   fill(0)
+  ellipse(352,272,20,20)
+   fill(255,0,0);// El color de la cara
+  arc (250,260,60,35,)
+    noFill();// no omplis de color la cella 
+  arc(250,260,60,35,PI,0);// cella esquerra
+  strokeWeight(5)
+  line(325,245,400,245,0,PI);//
+   fill(0)
+   ellipse(250,272,20,20);
+}
